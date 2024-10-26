@@ -40,7 +40,6 @@ export default function App() {
         <Numresult movies={movies} />
       </NavBar>
       <Main>
-        {/* <Box>{isLoading ? <Loader /> : <MovieList movies={movies} />}</Box> */}
         <Box>
           {isLoading && <Loader />}
           {!isLoading && !error && (
